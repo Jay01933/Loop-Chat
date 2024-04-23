@@ -1,0 +1,32 @@
+name: chatapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.10
+  firebase_auth: ^4.19.1
+  firebase_core: ^2.27.2
+  firebase_database: ^10.4.11
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^17.0.0
+  getwidget: ^4.0.0
+
+  google_fonts: ^6.2.1
+  google_nav_bar: ^5.0.6
+  timezone: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - res\LoopChat.jpg
+    - res\LogoLoop.png
+
